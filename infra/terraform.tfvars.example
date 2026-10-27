@@ -1,0 +1,18 @@
+# Copia este archivo como terraform.tfvars y completa tus valores.
+# terraform.tfvars está ignorado por Git: nunca lo subas al repositorio.
+
+student_id = "ana_lopez" # minúsculas, números o "_" (3-21 caracteres)
+
+# aws_profile = "workshop"   # opcional: perfil del AWS CLI
+# aws_region  = "us-east-1"
+
+# Genera una clave con: openssl rand -hex 24
+api_keys = "REEMPLAZA_CON_UNA_CLAVE_ALEATORIA_LARGA"
+
+timezone          = "America/Mexico_City"
+reminder_actor_id = "ana-lopez" # usa este mismo actor_id en tus llamadas a la API
+reminder_email    = ""          # tu correo para el recordatorio diario; vacío = sin recordatorios
+
+# reminder_schedule_expression = "cron(0 8 * * ? *)"   # 08:00 en tu zona horaria
+# enable_long_term_memory      = true
+# existing_subnet_ids          = ["subnet-aaa", "subnet-bbb"]   # para reutilizar una VPC existente

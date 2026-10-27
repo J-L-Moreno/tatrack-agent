@@ -1,0 +1,25 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+#Terraform
+*.terraform
+*.tfvars
+*.tfstate*
+*.hcl
